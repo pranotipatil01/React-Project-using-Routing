@@ -1,0 +1,335 @@
+/* *{
+    border:1px solid red;
+} */
+.brand{
+    color:#00bd56 ;
+    font-size: 50px;
+}
+/* home */
+.card-img-overlay {
+    top: 15%;
+
+}
+
+.card-img-overlay h2 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+button {
+    background-color: #00bd56;
+    border: 1px solid #00bd56;
+    color: #fff;
+}
+
+@media only screen and (min-width:768px) {
+
+    .card-img-overlay {
+        top: 25%;
+
+    }
+
+    .card-img-overlay h2 {
+
+        font-size: 50px;
+
+    }
+}
+
+@media only screen and (min-width:1200px) {
+
+    .card-img-overlay {
+        top: 24%;
+
+    }
+
+    .card-img-overlay h2 {
+
+        font-size: 70px;
+
+    }
+
+    button {
+        padding: 20px;
+        font-size: 16px;
+    }
+}
+/* about */
+.acard {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 28px 15px;
+}
+.icon1{
+    color:#00bd56 ;
+}
+
+@media only screen and (min-width:768px) {
+    .left img {
+        padding: 256px 0px;
+    }
+
+    .right {
+        padding: 20px 0px;
+    }
+
+
+}
+
+@media only screen and (min-width:1200px) {
+
+
+    .left img {
+        padding: 0px 0px;
+    }
+
+    .right {
+        padding: 140px 15px;
+    }
+
+    .right h2 {
+        margin: 40px;
+        font-size: 45px;
+        font-weight: 700;
+    }
+}
+
+/* blog */
+.bcard img{
+    height: 400px;
+}
+/* breadcrumb */
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    height: 200px;
+  }
+
+  .image-container::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background: linear-gradient(to right, #66ffa8ad, #5eafffba);
+    pointer-events: none;  
+  }
+
+
+.content{
+  position: relative;
+  top:-180px;
+}
+@media only screen and (min-width:768px){
+  .image-container {
+    position: relative;
+    display: inline-block;
+    height: 400px;
+  }
+
+  .image-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background: linear-gradient(to right, #66ffa8ad, #5eafffba);
+    pointer-events: none;  
+  }
+  .path{
+    background-image: url(./images/pet\ sitting06.b6f15d004449ea3799ff.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 360px;
+   
+  
+
+}
+ 
+
+
+.content{
+  position: relative;
+  top:-216px;
+}
+}
+@media only screen and (min-width:1200px){
+  .image-container {
+    position: relative;
+    display: inline-block;
+    height: 500px;
+  }
+
+  .image-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background: linear-gradient(to right, #66ffa8ad, #5eafffba);
+    pointer-events: none;  
+  } 
+
+  .path{
+   
+    height: 450px;
+   
+  
+
+}
+
+
+.content{
+  position: relative;
+  top:-216px;
+}
+}
+
+/* client */
+
+.client{
+    background-image: url(./images/petsittingimg06.jpg);
+    background-attachment: fixed;
+    height: 860px;
+}
+/* clientcard */
+.clientc{
+   margin-bottom: 80px;
+}
+
+
+@media only screen and (min-width:768px){
+    .client{
+        height: 650px;
+    }
+}
+
+/* contact */
+.contact{
+    background-image: url("./images/pet\ sitting22.jpg");
+}
+/* counter */
+.counter{
+    background:#00bd56;
+    padding:60px 0px;
+    margin: 20px 0px 100px 0px;
+}
+.ccontent{
+    color:#fff ;
+    background:#00bd56;
+    
+
+}
+/* gallery */
+.gcard img{
+    height: 400px;
+    
+}
+.gcard .card-img-overlay{
+    top:70%;
+
+}
+/* service */
+
+@media only screen and (min-width:768px){
+
+    .serviceb{
+        margin-top: -68px;
+    }
+    
+    
+}
+
+@media only screen and (min-width:1200px){
+
+    .serviceb{
+        margin-top: -26px;
+    }
+}
+.services{
+    border: 1px solid;
+    position: relative;
+    margin: 74px 0px 0px 0px;
+    color:#fff;
+    background-color: #00bd56;
+}
+
+.icon{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    border: 1px solid ;
+    border-radius: 50%;
+    background-color: #fff;
+    color:#00bd56;
+    left: 33%;
+    top:-28%
+
+}
+.media-body{
+padding: 45px 5px 30px 5px;
+line-height: 26px;
+}
+
+
+
+@media only screen and (min-width:768px){
+
+    .services{
+       
+        margin: 25px 0px 0px 0px;
+        color:#fff;
+       
+    }
+    
+    .icon{
+      
+        left: 29%;
+        top: -25%;
+    
+    }
+    .media-body{
+    padding: 45px 5px 30px 5px;
+    line-height: 20px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+
+    .services{
+        
+        margin: -35px 30px;
+    }
+    
+    .icon{
+       
+        left: 37%;
+        top: -22%;
+    
+    }
+    .media-body{
+    padding: 45px 60px 30px 60px;
+    line-height: 24px;
+    font-size: 16px;
+    }
+    .media-body h3{
+        font-size:  25px;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .icon {
+        left: 37%;
+        top: -20%;
+    }
+}
+/* veterinarian css */
+.vcard img{
+    height: 500px;
+}
